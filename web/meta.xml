@@ -1,0 +1,6 @@
+<meta>
+<info author="30j" name="Discord webhook messages" />
+<min_mta_version>1.5.4-9.11413</min_mta_version> 
+<script src="webhookS.lua"/>
+<export function="sendDiscordMessage" type="shared" />
+</meta>

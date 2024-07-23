@@ -1,0 +1,70 @@
+<meta>
+	<oop>true</oop>
+
+    <file src="img/cancel.png" />
+    <file src="img/chest.png" />
+    <file src="img/logo.png" />
+    <file src="img/window.png" />
+    <file src="img/doorway.png" />
+    <file src="img/floor.png" />
+    <file src="img/chill.png" />
+    <file src="img/Foundation.png" />
+    <file src="img/Wall.png" />
+
+
+	<file src="SFX/click.mp3" />
+	<file src="SFX/click2.mp3" />
+    <file src="SFX/whistle.mp3" />
+	<file src="Files/break.ifp"/>
+	<file src="Files/weppos1.ifp"/>
+	<file src="Files/weppos2.ifp"/>
+	<file src="Files/t7ya1.ifp"/>	
+	<file src="Files/t7ya2.ifp"/>	
+	<file src="Files/sur.ifp"/>
+	<file src="Files/policeanim.ifp"/>
+	<file src="Files/pullup.ifp"/>
+	<file src="Files/sit.ifp"/>
+	<file src="Files/abdominalandpushup.ifp" cache = "false" />
+	<script src="swhistle.lua" type="server" />
+    <script src="cwhistle.lua" type="client" cache="false" />
+	<script src="safe.lua" type="server" />
+	<script src="smain.lua" type="server" />
+	<script src="cmain.lua" type="client" validate="true" cache="false" protected="true" />
+
+
+
+
+
+
+
+
+    
+	<!-- Shared scripts -->
+    <script type="shared" src="shared/lib/middleclass.lua"/>
+
+    <!-- Server-side scripts -->
+    <script type="shared" src="shared/utils.lua"/>
+    <script type="shared" src="shared/part_sizing.lua"/>
+    <script type="shared" src="shared/direction.lua"/>
+
+    <script type="server" src="server/Building.lua"/>
+    <script type="server" src="server/backup.lua"/>
+    <script type="server" src="server/parts/Part.lua"/>
+    <script type="server" src="server/parts/Foundation.lua"/>
+    <script type="server" src="server/parts/Wall.lua"/>
+    <script type="server" src="server/parts/WallWindow.lua"/>
+    <script type="server" src="server/parts/WallDoor.lua"/>
+    <script type="server" src="server/parts/Floor.lua"/>
+    <script type="server" src="server/parts/Chill.lua"/>
+
+    <script type="server" src="server/test.lua"/>
+
+    <!-- Client-side scripts -->
+    <script type="client" src="client/BuildingClient.lua"/>
+    <script type="client" src="client/SnapRules.lua"/>
+    <script type="client" src="client/PartPreview.lua"/>
+
+    <file src="assets/highlight.fx"/>
+
+    <export type="client" function="showBuildingPart"/>
+</meta>

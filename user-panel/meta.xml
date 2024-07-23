@@ -1,0 +1,19 @@
+<meta>
+    <info name="User - Panel" author="**30j**" type="Scripts" version="1.1" />
+
+	
+
+	<script src="PanelStats/client.lua" type="client" cache="false"/>
+	<script src="PanelStats/server.lua" type="server" cache="false"/>
+	<file src="PanelStats/image/logo.png"/>
+    <file src="PanelStats/font.ttf"/>
+	<file src="PanelStats/font2.ttf"/>
+	<file src="PanelStats/GOTHIC.ttf"/>
+	
+    <file src="opensans-light.ttf"/>
+    <file src="font.ttf"/>
+    <file src="font2.ttf"/>
+
+    <export function="getPlayerAcc" type="server" />
+    <export function="getPlayerFromAcc" type="server" />
+</meta>

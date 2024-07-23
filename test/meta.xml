@@ -1,0 +1,9 @@
+<meta>
+    <info author="RekZ" name="Hover Board" version="1.2" type="script" />
+    <min_mta_version client="1.5.5-9.14060"></min_mta_version>
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" />
+    <file src="hover.txd" />
+    <file src="hover.dff" />
+    <file src="bikev.ifp" />
+</meta>

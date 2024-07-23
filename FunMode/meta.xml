@@ -1,0 +1,10 @@
+<meta>
+	<info author="Rhytz" version="0.1.1" type="script" name="rhytz-coffindance" />
+	<script src="c_rhytz-coffindance.lua" type="client" cache="false" />
+	<script src="s_rhytz-coffindance.lua" type="server" />
+
+	<!-- use like exports.rhytz-coffindance:coffinDance(targetPlayer) -->
+	<export function="coffinDance" type="server"/> 
+
+	<file src="sounds/music.mp3" type="client" />
+</meta>
